@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    background-color: #fff7f2;
+    color: #4a3a35;
+}
+
+/* Navigation */
+nav {
+    background-color: #d98c9b;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav h2 {
+    color: white;
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* หน้าแรก */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #ffe1e7;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #b85c70;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #b85c70;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* เกี่ยวกับร้าน */
+.about {
+    text-align: center;
+    padding: 50px 20%;
+}
+
+.about h2,
+.features h2,
+.promotion h2,
+.opening h2,
+.contact h2 {
+    color: #b85c70;
+}
+
+/* จุดเด่น */
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feature-box div {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.feature-box h3 {
+    color: #a65a42;
+}
+
+/* โปรโมชั่น */
+.promotion {
+
+    text-align: center;
+
+    padding: 45px;
+
+    background-color: #ffe1e7;
+
+}
+
+/* เวลาเปิดร้าน */
+.opening {
+    text-align: center;
+    padding: 45px;
+}
+
+/* หน้าเมนู */
+.title {
+    text-align: center;
+    color: #b85c70;
+    margin-top: 50px;
+}
+
+.menu-intro {
+    text-align: center;
+    margin: 20px auto 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px 50px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.card h2 {
+    color: #b85c70;
+}
+
+.card h3 {
+    color: #a65a42;
+    font-size: 20px;
+}
+
+.emoji {
+    font-size: 60px;
+}
+
+/* ติดต่อ */
+.contact {
+    {
+    text-align: center;
+    margin-top: 50px;
+    padding: 45px;
+    background-color: #ffe1e7;
+}
